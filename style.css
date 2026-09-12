@@ -402,13 +402,15 @@ footer:after {
 }
 
 footer li a {
-  text-decoration: none;
-  color: #777;
+  color: #aaa;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
-
 footer li a:hover {
-  color: #555;
+  color: #fff;
 }
 
 footer li h3{

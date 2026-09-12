@@ -109,7 +109,7 @@ class SiteFooter extends HTMLElement {
         </ul>
         <ul>
           <li><h3>Contact Us</h3></li>
-          <li><p><a href="mailto:${CONTACT_EMAIL}">Email: ${CONTACT_EMAIL}</a></p></li>
+          <li><p>Email: <a href="mailto:${CONTACT_EMAIL}">${CONTACT_EMAIL}</a></p></li>
         </ul>
       </div>
     </footer>
