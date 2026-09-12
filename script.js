@@ -26,7 +26,7 @@ const NAV_LINKS = [
 ];
 
 const CONTACT_EMAIL = "mnyouthmathoutreach@gmail.com";
-const BANNER_PHOTOS = [1, 2, 3, 4].map((n) => `images/site/photo${n}.JPG`);
+const BANNER_PHOTOS = [1, 2, 3, 4].map((n) => `images/site/photo${n}.jpg`);
 
 /* ---------- helpers ---------- */
 
