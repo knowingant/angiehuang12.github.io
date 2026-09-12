@@ -1322,3 +1322,8 @@ site-header, site-footer, photo-strip, photo-slideshow,
 round-links, org-list, org-card, staff-card {
   display: contents;
 }
+
+.past-staff-link {
+  margin-top: 32px;
+  font-size: 16px;
+}
