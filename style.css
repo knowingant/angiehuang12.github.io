@@ -274,8 +274,8 @@ a {
   text-align: center;
   color: black;
   padding-top: 150px;
-  padding-bottom:100px;
-  height: 400px;
+  padding-bottom: 40px;
+  height: auto;
 }
 
 .caption h1 {
