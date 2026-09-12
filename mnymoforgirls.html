@@ -5,54 +5,12 @@
     <meta name="viewport" content="width=device-width">
     <title>MN Youth Math Outreach</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
     <link rel="icon" type="image/x-icon" href="images/site/logo.png">
   </head>
   <body>
-    <script src="script.js"></script>
     <div id="main">
-    <header>
-      <div class="wrapper">
-          <nav>
-            <h2>nav</h2>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="camp.html">Camp</a></li>
-              <li><a href="competition.html">Competition</a></li>
-              <li><a href="mnymoforgirls.html">MNYMO for Girls</a></li>
-              <li><a href="sponsors.html">Sponsors</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="resources.html">Resources</a></li>
-            </ul>
-          </nav>
-          <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
-
-        </div>
-
-        <div class="navbar">
-          <div class="container nav-container">
-            <input class="checkbox" type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>
-
-            <div class="logo">
-            </div>
-            <div class="menu-items">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="camp.html">Camp</a></li>
-              <li><a href="competition.html">Competition</a></li>
-              <li><a href="mnymoforgirls.html">MNYMO for Girls</a></li>
-              <li><a href="sponsors.html">Sponsors</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact</a></li>
-              <li><a href="resources.html">Resources</a></li>
-            </div>
-          </div>
-        </div>
-      </header>
+    <site-header></site-header>
 
 
             <!-- <div class="caption camp-caption">
@@ -124,21 +82,14 @@
       
       <section class="comp-section">
         <h2>Problems &amp; Solutions (2026)</h2>
-        <div class="comp-links">
-          <div class="comp-link-group">
-            <h3>Individual</h3>
-            <ul>
-              <li><a href="docs/girls/2026/individual/problems.pdf">Problems</a></li>
-              <li><a href="docs/girls/2026/individual/solutions.pdf">Solutions</a></li>
-            </ul>
-          </div>
+        <round-links base="docs/girls/2026" rounds="Individual">
           <div class="comp-link-group">
             <h3>Lightning</h3>
             <ul>
               <li><a href="docs/girls/2026/lightning/problems-and-answers.pdf">Problems & Answers</a></li>
             </ul>
           </div>
-        </div>
+        </round-links>
       </section>
 
       <section class="comp-section">
@@ -160,109 +111,40 @@
 
       <section class="comp-section">
         <h2>Photos (2026)</h2>
-        <div class="slideshow-container">
-
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_1.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_2.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_3.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_4.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_5.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_6.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_7.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_8.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_9.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_10.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_11.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_12.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_13.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_14.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_15.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_16.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_17.jpg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2026/2026_girls_18.jpg" style="width:100%">
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-           <span class="dot" onclick="currentSlide(4)"></span>
-           <span class="dot" onclick="currentSlide(5)"></span>
-           <span class="dot" onclick="currentSlide(6)"></span>
-           <span class="dot" onclick="currentSlide(7)"></span>
-          <span class="dot" onclick="currentSlide(8)"></span>
-          <span class="dot" onclick="currentSlide(9)"></span>
-          <span class="dot" onclick="currentSlide(10)"></span>
-          <span class="dot" onclick="currentSlide(11)"></span>
-          <span class="dot" onclick="currentSlide(12)"></span>
-          <span class="dot" onclick="currentSlide(13)"></span>
-          <span class="dot" onclick="currentSlide(14)"></span>
-          <span class="dot" onclick="currentSlide(15)"></span>
-          <span class="dot" onclick="currentSlide(16)"></span>
-          <span class="dot" onclick="currentSlide(17)"></span>
-          <span class="dot" onclick="currentSlide(18)"></span>
-        </div>
+        <photo-slideshow base="images/girls/2026" images="
+                2026_girls_1.jpg
+                2026_girls_2.jpg
+                2026_girls_3.jpg
+                2026_girls_4.jpg
+                2026_girls_5.jpg
+                2026_girls_6.jpg
+                2026_girls_7.jpg
+                2026_girls_8.jpg
+                2026_girls_9.jpg
+                2026_girls_10.jpg
+                2026_girls_11.jpg
+                2026_girls_12.jpg
+                2026_girls_13.jpg
+                2026_girls_14.jpg
+                2026_girls_15.jpg
+                2026_girls_16.jpg
+                2026_girls_17.jpg
+                2026_girls_18.jpg
+              "></photo-slideshow>
       </section>
 
 
 
       <section class="comp-section">
         <h2>Problems &amp; Solutions (2025)</h2>
-        <div class="comp-links">
-          <div class="comp-link-group">
-            <h3>Individual</h3>
-            <ul>
-              <li><a href="docs/girls/2025/individual/problems.pdf">Problems</a></li>
-              <li><a href="docs/girls/2025/individual/solutions.pdf">Solutions</a></li>
-            </ul>
-          </div>
+        <round-links base="docs/girls/2025" rounds="Individual">
           <div class="comp-link-group">
             <h3>Lightning</h3>
             <ul>
               <li><a href="docs/girls/2025/lightning/problems-and-answers.pdf">Problems & Answers</a></li>
             </ul>
           </div>
-        </div>
+        </round-links>
       </section>
 
       <section class="comp-section">
@@ -284,56 +166,18 @@
 
       <section class="comp-section">
         <h2>Photos (2025)</h2>
-        <div class="slideshow-container">
-
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_1.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_2.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_3.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_4.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_5.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_6.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_7.png" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_8.jpeg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_9.jpeg" style="width:100%">
-          </div>
-          <div class="mySlides fade">
-            <img src="images/girls/2025/2025_girls_10.png" style="width:100%">
-          </div>
-
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
-
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-           <span class="dot" onclick="currentSlide(4)"></span>
-           <span class="dot" onclick="currentSlide(5)"></span>
-           <span class="dot" onclick="currentSlide(6)"></span>
-           <span class="dot" onclick="currentSlide(7)"></span>
-          <span class="dot" onclick="currentSlide(8)"></span>
-          <span class="dot" onclick="currentSlide(9)"></span>
-          <span class="dot" onclick="currentSlide(10)"></span>
-        </div>
+        <photo-slideshow base="images/girls/2025" images="
+                2025_girls_1.png
+                2025_girls_2.png
+                2025_girls_3.png
+                2025_girls_4.png
+                2025_girls_5.png
+                2025_girls_6.png
+                2025_girls_7.png
+                2025_girls_8.jpeg
+                2025_girls_9.jpeg
+                2025_girls_10.png
+              "></photo-slideshow>
       </section>
 
 
@@ -344,45 +188,8 @@
               <p></p>
             </div>
         </div>
-          <section id="imgs">
-            <ul>
-              <li><img src="images/site/photo1.JPG"></li>
-              <li><img src="images/site/photo2.JPG"></li>
-              <li><img src="images/site/photo3.JPG"></li>
-              <li><img src="images/site/photo4.JPG"></li>
-            </ul>
-          </section>
+          <photo-strip></photo-strip>
 
-          <section id="imgsphone">
-            <ul>
-              <li><img src="images/site/photo1.JPG"></li>
-              <li><img src="images/site/photo2.JPG"></li>
-            </ul>
-          </section>
-          <section id="imgsphone">
-            <ul>
-              <li><img src="images/site/photo3.JPG"></li>
-              <li><img src="images/site/photo4.JPG"></li>
-            </ul>
-          </section>
-
-        <footer>
-          <div class="wrap">
-            <ul>
-              <li><h3>Why Us?</h3></li>
-              <li>Summer is a great time to get back into competition math preparation! We believe that our teaching and resources will not only help prepare students, but also inspire them to take on their own initiatives.</li>
-              </ul>
-              <ul>
-                <li><h3>Contact Us</h3></li>
-                <li><p><a href="mailto:mnyouthmathoutreach@gmail.com">Email: mnyouthmathoutreach@gmail.com</a></p></li>
-            </ul>
-          </div>
-        </footer>
-
-        <section id="copyright">
-          <div class="wrap">
-            <p>&copy; Copyright 2024. All rights reserved. <br> Website by Angie Huang. Background art by Sophia Soo. </p>
-          </div>
-        </section>
+        <site-footer></site-footer>
         </body>
       </html>

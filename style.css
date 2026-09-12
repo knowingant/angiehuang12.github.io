@@ -1313,3 +1313,10 @@ body.about-page .content-wrapper {
 body.camp-page footer {
 margin-top: 2rem;
 }
+
+/* Custom elements from script.js: render their children as if the tag
+   itself were not there, so the existing layout rules keep applying. */
+site-header, site-footer, photo-strip, photo-slideshow,
+round-links, org-list, org-card, staff-card {
+  display: contents;
+}
