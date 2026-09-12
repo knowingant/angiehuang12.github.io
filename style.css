@@ -889,14 +889,14 @@ footer li h3{
 }
 
 #main {
-  background: url(background.jpeg) no-repeat center center;
+  background: url(images/site/background.jpeg) no-repeat center center;
   /* background-color: #FFBCA6; */
   background-size: cover;
   margin-top: -70px;
 }
 
 #mains {
-  background: url(background.jpeg) no-repeat center center;
+  background: url(images/site/background.jpeg) no-repeat center center;
   /* background-color: #FFBCA6; */
   background-size: cover;
   margin-top: -70px;
